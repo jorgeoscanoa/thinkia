@@ -1,0 +1,15 @@
+/*eSTILOS GENERALES PARA EL HEADER*/
+:host ::ng-deep .app-toolbar{
+    position: relative;   /*Permite posicionar elementos hijos en forma absoluta*/
+    display: flex !important; /**/
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 4rem;
+    padding: 0 1rem;
+}
+
+.toolbar-tile{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
